@@ -1,0 +1,129 @@
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    
+        #full-main,#full-header,footer,#short-search{
+            display: none;
+        }
+        .logo{
+            margin: 0 auto;
+        }
+    #short{   
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);    
+        padding-bottom: 8px;    
+    }
+    #log-in,#short-gamb-menu a{
+        color: white;
+        padding-left: 5px;
+    }
+    #gamb-menu{    
+        background-color: rgb(43, 51, 53);    
+    }
+    #short-gamb-menu a{
+        border-top: 1px solid black;
+        width: 100%;
+    }
+    #short-gamb-menu a:hover{
+        background-color: brown;
+    }
+    .navbar{
+        padding: 3px 0px;
+    }
+    #top-short-menu{
+        padding: 8px;
+        background-color: rgb(146, 33, 5);
+    } 
+    .mb-4{
+        margin-bottom: 0 !important;
+    }
+    
+    #short-menu{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: center;    
+    }
+    
+    #short-search input{
+        border: none;
+    }
+    #short-search{
+       border: 1px solid grey;
+       /* width: 38%; */
+       /* display: flex; */
+       border-radius: 5px;
+    }
+    #main-not-full{
+        display: flex;        
+        width: 100%;
+        border-top: 1px solid rgb(146, 33, 5);
+        padding: 10px;
+        margin: 10px;
+    }
+    #short-main{
+        box-sizing: border-box;
+        float: left;
+        width: 55%;  
+        border: 1px solid rgb(146, 33, 5); 
+            
+    }
+    #short-main p{
+        text-align: justify;
+    }
+
+    #short-main div,#right-not-full div {
+        margin: 15px auto;
+    }
+    #right-not-full{
+        box-sizing: border-box;
+        float: right;
+        width: 45%;
+        border: 1px solid rgb(146, 33, 5);
+        
+
+
+    }
+    /* #right-not-full div{
+        margin: 15px auto;
+    } */
+    #search-tablet{
+        width: 80%;
+        border-radius: 20px;
+        margin: 10px auto;
+    }
+    #inp-not-full{
+        border: none;
+        background-color: rgb(180, 170, 170);
+        width: 78%;
+        border-radius: 20px;
+       
+    }
+    #subm-not-full{
+        display: inline-block;
+        background-color: rgb(167, 56, 56);
+        padding: 6px;
+        margin-right: 3px;
+        border-radius: 20px;
+        
+        
+    }
+    #carouselExampleSlidesOnly{
+        width: 250px;
+        margin: 0 auto;
+    }
+    #bootstrap-tablet img{       
+        width: auto;
+        height: 200px;
+        border: 2px solid rgb(146, 33, 5);
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+    
+    .short-card{
+        width: 92%;
+        
+    }
+    #short-footer{
+        padding: 8px;
+        background-color: rgb(146, 33, 5);
+    }
+    }
+  

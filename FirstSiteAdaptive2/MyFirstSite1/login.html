@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="css/login.css">
+    <title>Увійти</title>
+</head>
+<body>
+    <form action="">
+        <h1 id="log-reg">Увійти</h1>
+        <div id="alert-not-correct" class="alert alert-warning" role="alert" hidden>
+            Невірно введено дані!!!
+        </div>
+        <div>
+            <p id="log-error" class="err-registration hide">Логін не повинен бути порожній</p>
+            <p>Логін:<input type="email" id="login" placeholder="Введіть email" required></p>
+        </div>
+        <div id="pass">
+            <p id="pass-error" class="err-registration hide">Пароль повинен містити щонайменше 8 символів</p>
+            <p>Пароль: 
+                <span>
+                    <input type="password" id="password" placeholder="Введіть password" title="Пароль повинен містити не менше 8 символів"><button type="button" id="hide-show-eye"><span class="glyphicon glyphicon-eye-close"></span></button>
+                </span>
+            </p>
+        </div>
+        <div id="pass-repeat" class="hide">
+            <p id="pass-repeat-error" class="err-registration hide">Пароль повинен відповідати першому введеному</p>
+            <p>Повторіть пароль: 
+                <span>
+                    <input type="password" id="password-repeat" placeholder="Введіть повторно password" title="Пароль повинен містити не менше 8 символів"><button type="button" id="hide-show-eye-repeat"><span class="glyphicon glyphicon-eye-close"></span></button>
+                </span>
+            </p>
+        </div>
+        <button type="button" id="btn-login">Увійти</button>
+        <button type="button" id="btn-register">Зареєструватися</button>
+        <button type="button" id="btn-ok" class="hide">Ok</button>
+    </form>
+    
+    
+    
+    
+    <!-- <span class="glyphicon glyphicon-eye-close"></span> -->
+    <!-- &#128065; -->
+    <script src="script/commonLogin.js"></script>
+    <script src="script/jsonObl.js"></script>
+    <script src="script/login.js" async></script>
+    
+</body>
+</html>

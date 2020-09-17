@@ -1,0 +1,179 @@
+*{
+    box-sizing: border-box;
+
+    
+}
+body{
+    width: 1200px;
+    margin: 0 auto;
+}
+.margin5{
+    margin: 5px;
+}
+.padding8{
+    padding: 8px;
+}
+.height100{
+    height: 100px;
+    /* margin: 20px;
+    display: block; */
+       
+}
+.blue-color{
+    color: blue;
+}
+.orange-color{
+    color: chocolate;
+}
+.green-color{
+    color: green;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: thistle;
+}
+
+header{
+    border: 2px solid red;
+}
+#date{
+    margin-right: 18px;
+}
+#intr{
+    display: flex;
+    flex-direction: row;
+    
+}
+nav .a-intr{
+    text-decoration: none;
+}
+nav .a-intr:last-child{
+    border-right: none;
+}
+#logInOut{
+    /* box-sizing: border-box;
+    float: right; */
+    margin-left: 1000px;
+
+}
+/* 
+ */
+/* nav a{
+    border: 2px solid rebeccapurple;
+    padding: 4px;
+    text-align: center;
+    vertical-align: middle;
+    /* margin: 4px;
+} */
+
+.logo{
+    
+    width: 80px;
+    height: 80px;
+    float: left;
+    opacity: 0.9;
+}
+
+/* margin-left: 15px; */
+.a-text, .a-intr, a>span{
+    /*display: block;*/
+    border-right: 2px solid white;
+    padding: 4px;
+    text-align: center;
+}
+.a-intr{
+    border-right: 2px solid rgb(80, 78, 76);; 
+}
+.a-background{
+    text-decoration: none;
+    /*border: 2px solid rebeccapurple;*/
+    border-right: 1px solid white;
+    padding: 15px; 
+    color: white;
+    background-color: rgb(146, 33, 5);
+    /* margin: -2px; */
+    margin-left: -4px;
+    vertical-align: middle;
+    /* align-items: center; */
+     height: 49px; 
+       
+}
+.a-background:hover{
+    background-color: rgb(245, 116, 23);
+}
+#radio{
+    display: inline-block;
+    background-image: url("https://molbuk.ua/uploads/blisk_.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    /* width: 21.97%; */
+    width: 11%;
+    height: 47.8px;
+    border-right: none;
+
+}
+#radio:hover{
+    background-color: rgb(245, 116, 23);
+    /* width: 12%; */
+} 
+#nav-background{
+    /* padding: 7px; */
+     background-color: rgb(146, 33, 5);  
+   height: 48px; 
+   vertical-align: middle;
+    
+}
+.a-text{
+    /* border-right: 2px solid white;
+    padding: 4px;
+    text-align: center; */
+    display: inline-block;
+    text-decoration: none; 
+    color: rgb(80, 78, 76);  
+    font-weight: bold;
+    font-size: 15px;
+    /* margin: 5px; */
+    text-align: center;
+    /* padding: 5px; */
+}
+
+.a-text:hover{
+    color: rgb(146, 33, 5);
+    text-decoration: underline;    
+}
+
+main{
+    border: 2px solid blue;
+}
+fieldset{
+    border: none;
+    border-top: 2px solid rgb(122, 116, 116);
+    /* text-align: left; */
+}
+legend{
+    margin: 0 auto;
+}
+footer{
+    border: 2px solid blueviolet;
+}
+
+div{
+    border: 2px solid rgb(226, 208, 43); 
+}
+#left{
+    box-sizing: border-box;
+    float: left;
+    width: 48%;
+}
+#right{
+    box-sizing: border-box;
+    float: right;
+    width: 25%;
+}
+#center{
+    box-sizing: border-box;
+    float: left;
+    width: 25%;
+}

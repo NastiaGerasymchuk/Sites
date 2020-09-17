@@ -1,0 +1,267 @@
+@media screen and (min-width: 800px){
+    
+    *{      
+        font-weight: bold;
+          
+    }
+   #short-header #gamb-menu, #top-short-menu,
+   #short-menu,#short-menu div,
+   #short-menu .logo,#short-header #main-not-full,
+   #short-footer
+   {
+       display: none;
+   }
+
+   .transition{
+      transition: all 1s ease-out 0.5s;;
+   }
+   .transition:hover{
+    transform: scale(1.2);
+   }
+   
+#intr-date{
+    margin: 5px 5px -4px 5px;
+}
+/* #card-city{   
+    width: 1200px;
+    position: fixed;
+    top: 10px;
+    height: 100%;
+} */
+body{
+    width: 1200px;
+    margin: 0 auto;
+}
+.height100{
+    height: 100px;}
+
+.font-bold:hover{
+    font-weight: bold;    
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: thistle;
+}
+
+#full-header{
+    margin: -5px;
+    margin-bottom: 5px;
+}
+#date{
+    margin-right: 10px;
+}
+#intr{
+    display: flex;
+    flex-direction: row;
+    
+}
+#logInOut{
+    margin-left: 730px;
+    /* margin-right: 5px; */
+}
+#logInOut a{
+    margin-left: 30px;
+    color: rgb(146, 33, 5);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 3px;
+    border-radius: 20%;
+}
+
+
+.logo{
+    float: left;
+}
+.a-text, a>span,.f-text{  
+    border-right: 2px solid white;
+    padding: 4px;
+    text-align: center;
+}
+.a-background{
+    text-decoration: none;  
+    border-right: 2px solid white;
+    padding: 8px 5px; 
+    color: white;
+    background-color: rgb(146, 33, 5);
+    vertical-align: middle;
+    height: 49px;       
+}
+
+.margin-left{
+    margin-left: -4px; 
+}
+.a-background:hover{
+    background-color: rgb(245, 116, 23);
+    color: white;
+    text-decoration: none;
+}
+#radio{
+    display: inline-block;
+    background-image: url("https://molbuk.ua/uploads/blisk_.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 15%;
+    height: 47.8px;
+    border-right: none;
+
+}
+#radio:hover{
+    background-color: rgb(245, 116, 23);
+} 
+#nav-background{    
+    background-color: rgb(146, 33, 5);  
+   height: 48px; 
+   vertical-align: middle;
+    
+}
+.a-text{
+    display: inline-block;
+    text-decoration: none; 
+    color: rgb(80, 78, 76);
+    text-align: center;
+}
+
+.a-text:hover{
+    color: rgb(146, 33, 5);
+    text-decoration: underline;    
+}
+
+#full-main{
+    margin-top: -10px;
+}
+fieldset{
+    border: none;
+    border-top: 2px solid rgb(122, 116, 116);
+    margin: 20px;
+}
+legend{
+    margin: 0 auto;
+    font-size: 11px;
+    width: auto;
+    padding: 3px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: rgb(146, 33, 5); 
+}
+#nav-footer{
+    margin-bottom: 5px;
+}
+footer a,footer p{
+    font-size: 10px;
+    color: white;
+}
+.f-text{
+    padding: 0;
+    padding-right: 4px;    
+    text-decoration: underline;   
+}
+footer a:hover{
+    text-decoration: none;
+    color: white;
+}
+#left{
+    box-sizing: border-box;
+    float: left;
+    width: 68%;
+    margin-left: 0px;
+}
+#image-title{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#image-title p{
+    text-align: justify;
+}
+.card-img-top{
+    width: 90%;
+    margin: 0 auto;
+}
+.card-title a{
+   margin: 8px 0 8px 8px;
+   font-size: 15px;
+}
+.bold{
+    font-weight: bold;
+}
+#right{
+    box-sizing: border-box;
+    float: right;
+    width: 26.97%;
+    padding-bottom: 22px;
+    margin-right: 0px;
+}
+#left{
+    padding-bottom: 22px;
+}
+#left #search{
+    width: 70%;
+    margin: 10px auto 20px auto;
+}
+#left #inp{
+    border: none;
+    background-color: rgb(180, 170, 170);
+    width: 93%;
+}
+#left #subm{
+    display: inline-block;
+    background-color: rgb(167, 56, 56);
+    padding: 6px;
+    margin-right: 3px;
+}
+
+/* #right input{
+    border: none;
+    background-color: rgb(180, 170, 170);
+    width: 88%;
+}
+#right span{
+    display: inline-block;
+    background-color: rgb(167, 56, 56);
+    padding: 6px;
+    margin-right: 3px;
+} */
+#carouselExampleControls{
+    width: 250px;
+    margin: 0 auto;
+}
+.d-block{
+    width: 250px;
+    height: 250px;
+}
+#center{
+    box-sizing: border-box;
+    /* float: left; */
+    float: right;
+    margin-left: 10px;
+    /* width: 23.5%;   */
+    width: 30%;  
+}
+#get-carousel{
+    width: 200px;
+    height: 200px;   
+    margin:30px auto 0 auto ;
+    border: 2px dashed rgb(122, 116, 116);
+    /* border-radius: 50%;  */
+}
+#data-title div{
+    
+    border: 2px solid white;
+    margin: -1px;
+    
+}
+#data-title span{
+    margin-right: 4px;
+    font-style: italic;
+    /* font-weight: lighter; */
+    font-size: 10px;
+    color: rgb(75, 72, 72);
+}
+}
